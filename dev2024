@@ -1,12 +1,43 @@
-- 👋 Hi, I’m @ChaffarMohamedAziz
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+console.log("Application 1")
+//1
+function max(a,b){
+    if(a>b)
+    return a
+else
+return b;
+}
+console.log(max(5,8))
+console.log(max(15,8))
+console.log(max(18,18))
 
-<!---
-ChaffarMohamedAziz/ChaffarMohamedAziz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+//2
+function aff(){
+console.log("Bonjour");
+}
+aff()
+
+//3
+function som(a,b){
+return a+b;
+}
+console.log(som(5,10))
+
+//4
+function into(){
+    document.getElementById("zone").innerHTML="enter";
+}
+function out(){
+    document.getElementById("zone").innerHTML="out";
+}
+function bgcolor(color){
+    document.getElementById("zone").style.backgroundColor=color;
+}
+//5
+function isString(data){
+    return typeof data==='string'
+}
+console.log("Exercice 1 : ");
+console.log(isString("hello65656"));
+console.log(isString([1,6,9]));
+console.log(isString(5));
+console.log(isString("Is54545et"));
